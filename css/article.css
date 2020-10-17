@@ -1,0 +1,9 @@
+h1{
+	text-align: center;
+}
+#txtpic {
+	margin: 0 auto;
+	display: table-cell;
+	max-width: 600px;
+	width: 100%;
+}
