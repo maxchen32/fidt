@@ -3,7 +3,7 @@ h1{
 }
 #txtpic {
 	margin: 0 auto;
-	display: table-cell;
+	display: block;
 	max-width: 600px;
 	width: 100%;
 }
