@@ -1,2 +1,5 @@
 *.bat
 *.py
+Test.java
+*.class
+tmp.html
