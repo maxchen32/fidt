@@ -12,10 +12,10 @@
 	    <br/>
 		<p>
 			<strong>
-			<span style="font-style:italic;">F</font>
-			<span style="font-style:italic;">I</font>
-			<span style="font-style:italic;">D</font>
-			<span style="font-style:italic;">T</font>
+			<span style="font-style:italic;color:#ff0000;font-size:10;">F</span>
+			<span style="font-style:italic;color:#0000ff;font-size:10;">I</span>
+			<span style="font-style:italic;color:#00ff00;font-size:10;">D</span>
+			<span style="font-style:italic;color:#ff00ff;font-size:10;">T</span>
 			(Fédération Internationale des Tic-tac-toe <i>世界井字棋协会</i> )
 			</strong>
 		</p>
