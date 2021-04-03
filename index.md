@@ -23,7 +23,7 @@
 
 	</div>
 	<div>
-		# 井字棋训练
+# 井字棋训练
 		<a href="https://cledersonbc.github.io/tic-tac-toe-minimax">Jogo da Velha - Minimax</a> 
 	</div>
 	<div>
