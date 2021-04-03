@@ -1,4 +1,3 @@
-[toc]
 <html>
 <head>
 	<meta charset="utf-8">
