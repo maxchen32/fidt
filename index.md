@@ -10,15 +10,15 @@
         	<img src="./pic/logo.svg" alt="FIDT_logo" height="200" width="200">
 	    </a>
 	    <br/>
-		<font size=2>
+		<p>
 			<strong>
-			<font color=#ff0000 style="font-style:italic;" size=10>F</font>
-			<font color=#0000ff style="font-style:italic;" size=10>I</font>
-			<font color=#00ff00 style="font-style:italic;" size=10>D</font>
-			<font color=#ff00ff style="font-style:italic;" size=10>T</font>
+			<span style="font-style:italic;">F</font>
+			<span style="font-style:italic;">I</font>
+			<span style="font-style:italic;">D</font>
+			<span style="font-style:italic;">T</font>
 			(Fédération Internationale des Tic-tac-toe <i>世界井字棋协会</i> )
 			</strong>
-		</font>
+		</p>
 	<hr>
 
 	</div>
