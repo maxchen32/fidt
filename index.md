@@ -20,7 +20,6 @@
 			</strong>
 		</p>
 	<hr>
-
 	</div>
 	<div>
 		<a name="practice"><h1>井字棋训练</h1></a>
