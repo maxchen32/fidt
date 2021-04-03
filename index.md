@@ -23,7 +23,7 @@
 
 	</div>
 	<div>
-		<h1>井字棋训练</h1>
+		# 井字棋训练
 		<a href="https://cledersonbc.github.io/tic-tac-toe-minimax">Jogo da Velha - Minimax</a> 
 	</div>
 	<div>
@@ -43,7 +43,7 @@
        	</ul>	
 	</div>
 	<div>
-		<h1>文化集萃</h1>
+		# 文化集萃
 		<ol>
 		<li><a href="./src/w04.html">(2021.1.28)送东阳马生曲 Could Not Move</a></li>
 		<li><a href="./src/w03.html">(2020.11.10)&#x6212;&#x9536;&#x4E66;</a></li>
