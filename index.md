@@ -1,4 +1,3 @@
-<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
@@ -25,6 +24,7 @@
 		<a name="practice"><h1>井字棋训练</h1></a>
 		<a href="https://cledersonbc.github.io/tic-tac-toe-minimax">Jogo da Velha - Minimax</a> 
 	</div>
+    # [教程](./tutorial/index.md)
 	<div>
 		<a name="news"><h1>新闻</h1></a>
 		<ul>
@@ -69,4 +69,3 @@
 +-----------------------+</pre>
 	</div>
 </body>
-</html>
