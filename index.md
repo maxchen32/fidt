@@ -26,7 +26,7 @@
 	</div>
     <div>
         <a name="tutorial"><h1>教程</h1></a>
-        <a href="./tutorial/index.md">井字棋初级教程</a>
+        <a href="./tutorial">井字棋初级教程</a>
     </div>
 	<div>
 		<a name="news"><h1>新闻</h1></a>
