@@ -3,7 +3,6 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<title>FIDT-首页</title>
 </head>
-<body>
 	<div>
 	    <a href="https://maxchen32.github.io/fidt" title="FIDT-首页">
         	<img src="./pic/logo.svg" alt="FIDT_logo" height="200" width="200">
@@ -24,7 +23,7 @@
 		<a name="practice"><h1>井字棋训练</h1></a>
 		<a href="https://cledersonbc.github.io/tic-tac-toe-minimax">Jogo da Velha - Minimax</a> 
 	</div>
-    # [教程](./tutorial/index.md)
+# [教程hhh](./tutorial/index.md)
 	<div>
 		<a name="news"><h1>新闻</h1></a>
 		<ul>
@@ -68,4 +67,3 @@
 | +===' |       |   |   |
 +-----------------------+</pre>
 	</div>
-</body>
