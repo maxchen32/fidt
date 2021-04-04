@@ -8,28 +8,27 @@
 
 <table>
 <tr>
-<td>
-<center>
-<img id="1-1" src="./pic/1-1.jpg" width=200>
-</br>
-图1-1
-</center>
-</td>
-<td>
-<center>
-<img src="./pic/1-2.jpg" >
-</br>
-图1-2
-</center>
-</td>
-</td>
-<td>
-<center>
-<img src="./pic/1-3.jpg" >
-</br>
-图1-3
-</center>
-</td>
+    <td>
+        <center>
+        <img id="1-1" src="./pic/1-1.jpg" width=200>
+        <br />
+        图1-1
+        </center>
+    </td>
+    <td>
+        <center>
+        <img src="./pic/1-2.jpg" >
+        <br />
+        图1-2
+        </center>
+    </td>
+    <td>
+        <center>
+        <img src="./pic/1-3.jpg" >
+        <br />
+        图1-3
+        </center>
+    </td>
 </tr>
 </table>
 
