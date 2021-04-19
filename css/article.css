@@ -13,3 +13,8 @@ h1{
 	-webkit-transform:rotate(180deg); /* Safari and Chrome */
 	-o-transform:rotate(180deg); /* Opera */
 }
+pre {
+	font-family: sansserif;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
