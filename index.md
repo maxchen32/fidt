@@ -31,6 +31,7 @@
 	<div>
 		<a name="news"><h1>新闻</h1></a>
 		<ul>
+            <li><a href="./src/12.html">(2021.4.29)中考战歌</a></li>
             <li><a href="./src/11.html">(2021.2.24)FIDT&#x5019;&#x9009;&#x4EBA;&#x8D5B;&#x6682;&#x5B9A;&#x5728;4&#x6708;&#x590D;&#x8D5B;</a></li>
             <li><a href="./src/10.html">(2021.1.3)&#x7C89;&#x7B14;&#x96D5;&#x523B;</a></li>
             <li><a href="./src/09.html">(2021.1.3)&#x7C89;&#x7B14;&#x836F;&#x4E1A;</a></li>
