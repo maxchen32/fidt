@@ -48,7 +48,7 @@
 	<div>
 		<a name="article"><h1>文化集萃</h1></a>
 		<ol>
-		<li><a href="./src/w04.html">(2021.1.28)送东阳马生曲 Could Not Move</a></li>
+		<li><a href="./src/w04-0.html">(2021.1.28)送东阳马生曲 Could Not Move</a></li>
 		<li><a href="./src/w03.html">(2020.11.10)&#x6212;&#x9536;&#x4E66;</a></li>
 		<li><a href="./src/politics2.svg">(2020.11.3)思维导图2</a></li>
 		<li><a href="./src/politics.html">(2020.11.1)思维导图</a></li>
