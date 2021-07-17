@@ -1,5 +1,4 @@
 *.bat
-*.py
-Test.java
+*.swp
 *.class
-tmp.html
+tmp*.*
