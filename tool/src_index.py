@@ -1,5 +1,5 @@
 import os
-srcdir = './src/'
+srcdir = '../src/'
 os.remove(srcdir+"index.md")
 l = os.listdir(srcdir)
 l.sort()

@@ -20,8 +20,6 @@
 
 [11.html](11.html)
 
-[12.html](12.html)
-
 [12.md](12.md)
 
 [politics.html](politics.html)
