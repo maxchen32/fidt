@@ -1,5 +1,2 @@
-source "https://rubygems.org"
-
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
-gem "github-pages", group: :jekyll_plugins
+source 'https://gems.ruby-china.com/'
+gem 'minimal-mistakes-jekyll', '~> 4.24'
