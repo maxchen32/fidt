@@ -5,5 +5,5 @@ l = os.listdir(srcdir)
 l.sort()
 with open(srcdir+"index.md", mode='w', encoding="utf-8") as f:
     for i in l:
-        if (i[:4] != "test"):
+        if i[:4] != "test" and i[:3] != "tmp":
             f.write('['+i+']('+i+')\n\n')

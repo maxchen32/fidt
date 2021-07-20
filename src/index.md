@@ -26,8 +26,6 @@
 
 [politics2.svg](politics2.svg)
 
-[tmp.html](tmp.html)
-
 [w01.html](w01.html)
 
 [w02.html](w02.html)
