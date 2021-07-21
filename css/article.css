@@ -35,9 +35,11 @@ pre.code {
 	font-family:Consolas;
 	overflow-x:auto;
 }
-p {
+
+p:not(.noindent) {
 	text-indent:2em;
 }
+
 span.stress {
 	display:block;
 	padding:15px;
