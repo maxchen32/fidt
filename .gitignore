@@ -1,5 +1,3 @@
-*.bat
-*.py
-Test.java
-*.class
-tmp.html
+# Vim
+*~
+*.sw[p_]
