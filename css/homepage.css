@@ -1,0 +1,17 @@
+﻿/* 未访问的链接 */
+a:link {
+}
+
+/* 已访问的链接 */
+a:visited {
+	color: #0000FF;
+}
+
+/* 鼠标悬停链接 */
+a:hover {
+	color: #FF00FF;
+}
+
+/* 已选择的链接 */
+a:active {
+}

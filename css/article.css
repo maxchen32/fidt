@@ -1,7 +1,10 @@
+body {
+	background-color: #FFFFE0;
+}
 h1{
 	text-align: center;
 }
-#txtpic {
+img.txtpic {
 	margin: 0 auto;
 	display: block;
 	max-width: 600px;
@@ -12,4 +15,32 @@ h1{
 	-moz-transform:rotate(180deg); /* Firefox */
 	-webkit-transform:rotate(180deg); /* Safari and Chrome */
 	-o-transform:rotate(180deg); /* Opera */
+}
+
+pre.lyric {
+	font-family: Georgia, sans-serif;;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+pre.code {
+	width:765px;
+	margin: 15px 0 0 0;
+	padding: 20px;
+	border: 0;
+	border: 1px dotted #785;
+	background: #696969;
+	color: white;
+	line-height:1.4;
+	font-family:Consolas;
+	overflow-x:auto;
+}
+p {
+	text-indent:2em;
+}
+span.stress {
+	display:block;
+	padding:15px;
+	border-left:6px solid #2196F3;
+	background-color: #ddffff;
 }
