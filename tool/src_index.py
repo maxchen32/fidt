@@ -1,13 +1,14 @@
 import os
 srcdir = '../src/'
+
+f = open(srcdir+"toc.html", mode='w', encoding="utf-8")
+
 l = os.listdir(srcdir)
 l.sort()
 l.remove("toc.html")
 l.remove("head.html")
 l.remove("index.html")
 
-
-f = open(srcdir+"toc.html", mode='w', encoding="utf-8")
 HEAD = """<!DOCTYPE html>
 <html>
 <head>
