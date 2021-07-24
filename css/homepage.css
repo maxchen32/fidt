@@ -1,4 +1,37 @@
-﻿/* 未访问的链接 */
+﻿body {
+	margin:0;
+}
+
+div:not(#head) {
+	margin:16px;
+}
+
+img.biglogo {
+	height:160px;
+	width:160px;
+	margin:36px 0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li a {
+	display: block;
+	/*color: #000;*/
+	padding: 12.5px /*16px*/;
+}
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+li a:hover:not(.active) {
+	font-size:1.1em;
+	/*background-color: #334166;*/
+	color: #FF00FF;
+	/*text-decoration: none;*/
+}
+/* 未访问的链接 */
 a:link {
 }
 
@@ -9,6 +42,7 @@ a:visited {
 
 /* 鼠标悬停链接 */
 a:hover {
+	font-size:1.1em;
 	color: #FF00FF;
 }
 

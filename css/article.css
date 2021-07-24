@@ -18,7 +18,7 @@ img.txtpic {
 }
 
 pre.lyric {
-	font-family: Georgia, sans-serif;;
+	font-family: Georgia, sans-serif;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }
@@ -43,6 +43,7 @@ p:not(.noindent) {
 span.stress {
 	display:block;
 	padding:15px;
+	margin-left:30px;
 	border-left:6px solid #2196F3;
 	background-color: #ddffff;
 }
