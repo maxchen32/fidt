@@ -15,7 +15,7 @@ HEAD =''.join(("""<!DOCTYPE html>
     """</title>
 </head>
 <body>
-    <iframe id="head"></iframe><script>setHead()</script>
+        <iframe id="head"></iframe><script>setHead()</script>
     <div>
         <h1>""",title,
     """</h1>
@@ -27,11 +27,14 @@ DIVs ="""
     <div>"""
 DIVe ="""
     </div>"""
+ARTICLEs ="""
+    <article>"""
+ARTICLEe ="""</article>"""
 Ps = """
         <p>"""
 Pe = """</p>"""
 IMG = "<img class=\"txtpic\" src=\"../pic/" + piclink + "\" />"
-para = DIVs + Ps + "<!--input text here-->" + "<i>&#xFF08;FIDT&#x7535;&#x53F0;&#x62A5;&#x9053;&#xFF09;</i>" + Pe + DIVe
-pic = DIVs + Ps + IMG + Pe + DIVe
+para = ARTICLEs + "<!--input text here-->" + Ps + "<i>&#xFF08;FIDT&#x7535;&#x53F0;&#x62A5;&#x9053;&#xFF09;</i>" + Pe + ARTICLEe
+pic = DIVs + Ps + IMG + Pe + DIVe if piclink != '' else ''
 f.write(HEAD+pic+para+REAR)
 f.close()
