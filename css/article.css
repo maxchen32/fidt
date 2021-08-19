@@ -4,6 +4,9 @@ body {
 h1{
 	text-align: center;
 }
+h2.ent {
+	text-align: center;
+}
 img.txtpic {
 	margin: 0 auto;
 	display: block;
