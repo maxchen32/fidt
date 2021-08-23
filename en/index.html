@@ -2,27 +2,35 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../css/homepage.css" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <script type="text/javascript" src="../js/setVolume.js"></script>
 	<title>FIDT-Home</title>
 </head>
 <body style="background-color: #FFFFE0;">
-	<div id="head" align="center" style="background-color: #334166;">
-	    <a href="https://maxchen32.github.io/fidt" title="FIDT-首页">
-        	<img class="biglogo" src="../pic/logo.svg" alt="FIDT_logo"></a>
-			<b>
-            <br />
-			<span style="font-style:italic;color:#ff0000;font-size:40;">F</span>
-			<span style="font-style:italic;color:#0000ff;font-size:40;">I</span>
-			<span style="font-style:italic;color:#00ff00;font-size:40;">D</span>
-			<span style="font-style:italic;color:#ff00ff;font-size:40;">T</span>
-			<span style="color: #ffffff;">世界井字棋协会<br />Fédération Internationale des Tic-tac-toe<br />International Tic-tac-toe Federation</span>
-            <span style="color: #ffffff;"></span>
-			</b>
-	</div>
+	<header id="head" style="background-color: #334166;">
+        <p  style="text-align:right">
+        <span style="color:#ffffff">语言: </span>
+        <a href="https://maxchen32.github.io/fidt"><button type="button"><span style="font-size: 1.25em">中文</span></button></a>
+        </p>
+        
+        <div style="text-align:center">
+            <a href="https://maxchen32.github.io/fidt" title="FIDT-首页">
+                <img class="biglogo" src="../pic/logo.svg" alt="FIDT_logo">
+            </a>
+            <b>
+            <span style="font-style:italic;color:#ff0000;font-size:2.5em;">F</span>
+            <span style="font-style:italic;color:#0000ff;font-size:2.5em;">I</span>
+            <span style="font-style:italic;color:#00ff00;font-size:2.5em;">D</span>
+            <span style="font-style:italic;color:#ff00ff;font-size:2.5em;">T</span>
+            <span style="color: #ffffff;">世界井字棋协会<br />Fédération Internationale des Tic-tac-toe<br />International Tic-tac-toe Federation</span>
+            </b>
+        </div>
+	</header>
     
     <div>
-        <audio autoplay="autoplay" controls="controls" loop="loop">
-            <source src="../pic/《华沙曲》中文合唱.mp4" type="audio/mpeg" />
+        <audio id="Warsaw" autoplay controls loop >
+            <source src="../pic/《华沙曲》中文合唱.mp4" type="audio/mpeg"/>
         </audio>
+        <script>setVolume("Warsaw", 0.2)</script>
     </div>	
     
     <div>
@@ -65,8 +73,8 @@
 		<li><a href="./src/w01.html">(2020.10.13)人物|尹芮洪（上）</a></li>
 		</ol>
 	</div>
-	<div>
-		<br /><strong style="color: red">If you have any problem about this website, mail to：maxchen32#qq.com(change # to @)</strong>
+    
+    <footer>
 <pre>+-----------------------+
 |       |       | ===== |
 |       |       |   |   |
@@ -80,7 +88,18 @@
 | |    :|       |   |   |
 | +===' |       |   |   |
 +-----------------------+</pre>
+        <p>
+            <strong style="color: red">If you have any problem about this website, mail to：maxchen32#qq.com(change # to @)</strong>
+            <br />
+            <strong style="color: red">
+                <span style="color:#ff0000;">F</span>
+                <span style="color:#0000ff;">I</span>
+                <span style="color:#00ff00;">D</span>
+                <span style="color:#ff00ff;">T</span> and website content are fictitious
+            </strong>
+        </p>
     <center>
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</center>
-	</div>
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
+    </center>
+	</footer>
 </body>
