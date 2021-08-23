@@ -27,3 +27,9 @@ Main Content of FIDT Website
  2. Tic-tac-toe Event News
  3. Tic-Tac-Toe Culture
  
+<strong style="color: red">
+                <span style="color:#ff0000;">F</span>
+                <span style="color:#0000ff;">I</span>
+                <span style="color:#00ff00;">D</span>
+                <span style="color:#ff00ff;">T</span> and website content are fictitious
+            </strong>
