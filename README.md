@@ -28,8 +28,8 @@ FIDT网站主要内容
  3. 井字棋文化
  
 <strong style="color: red">
-                <span style="color:#ff0000;">F</span>
-                <span style="color:#0000ff;">I</span>
-                <span style="color:#00ff00;">D</span>
-                <span style="color:#ff00ff;">T</span>及网站内容纯属虚构
-            </strong>
+    <span style="color:#ff0000;">F</span>
+    <span style="color:#0000ff;">I</span>
+    <span style="color:#00ff00;">D</span>
+    <span style="color:#ff00ff;">T</span>及网站内容纯属虚构
+</strong>
