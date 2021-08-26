@@ -11,6 +11,8 @@ FIDT / International Tic-tac-toe Federation
 
 ---------------------
 
+### FIDT newsgroup will celebrate its first anniversary on September 13, 2021
+
 Tic-Tac-Toe
 -----------
 Tic-tac-toe, well known to people, is a zero-sum board game with simple rules. Tic-tac-toe usually has two types of pieces: `O` and `X`. The two sides of the game play these two kinds of pieces between the square inches to show their skills.
