@@ -5,16 +5,24 @@ HEAD ="""<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../css/article.css">
-    <script type="text/javascript" src="../js/setHead.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/marx.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <title>FIDT电台</title>
 </head>
 <body>
-    <iframe id="head"></iframe><script>setHead()</script>
+    <div>
+            <a href="https://maxchen32.github.io/fidt" title="FIDT-&#x9996;&#x9875;">
+                    <img src="../pic/logo.png" alt="FIDT_logo" height="200" width="200">
+            </a><br>
+            <strong style="color: red">&#x672C;&#x9875;&#x9762;&#x4EC5;&#x4E3A;&#x73A9;&#x7B11;&#xFF0C;&#x5E76;&#x65E0;&#x6076;&#x610F;</strong><br>
+    </div>
+<main>
+    
 """
 
 REAR ="""
+</main>
 </body>
 </html>"""
 
