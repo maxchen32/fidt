@@ -4,6 +4,7 @@ import os
 HEAD ="""<!DOCTYPE html>
 <html>
 <head>
+    <link rel="icon" href="../pic/logo.png">
     <link rel="stylesheet" type="text/css" href="../css/article.css">
     <link rel="stylesheet" type="text/css" href="../css/marx.min.css">
     <meta charset="utf-8">
@@ -22,6 +23,7 @@ HEAD ="""<!DOCTYPE html>
 """
 
 REAR ="""
+    <p><i>（FIDT电台报道）</i></p>
 </main>
 </body>
 </html>"""
