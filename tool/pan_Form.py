@@ -1,5 +1,8 @@
 import sys
 import os
+import time
+from bs4 import BeautifulSoup
+
 
 HEAD ="""<!DOCTYPE html>
 <html>
@@ -9,7 +12,7 @@ HEAD ="""<!DOCTYPE html>
     <link rel="stylesheet" type="text/css" href="../css/marx.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-    <title>FIDT电台</title>
+    <title></title>
 </head>
 <body>
     <div>
@@ -24,6 +27,7 @@ HEAD ="""<!DOCTYPE html>
 
 REAR ="""
     <p><i>（FIDT电台报道）</i></p>
+    <p><i>(FIDT Newsgroup reported)</i></p>
 </main>
 </body>
 </html>"""
@@ -33,7 +37,20 @@ def main(argv):
     f = open(argv[1][:-3]+".html", 'r+', encoding="utf-8")
     content = f.read()
     f.seek(0)
-    f.write(HEAD+content+REAR)
+    page = HEAD+content+REAR
+    soup = BeautifulSoup(page, "html5lib")
+    h1 = soup.find('h1')
+    pagetitle = soup.find('title')
+    pagetitle.string = h1.get_text()
+    print(pagetitle)
+    original_tag = soup.head
+    original_tag.append(pagetitle)
+    new_time = soup.new_tag("time")
+    new_time['datetime'] = time.strftime("%Y-%m-%d", time.localtime())
+    print(new_time)
+    original_tag.append(new_time)
+    #print(soup.head)
+    f.write(soup.prettify())
     f.close()
     
 if __name__ == "__main__":
