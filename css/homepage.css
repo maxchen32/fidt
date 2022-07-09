@@ -1,8 +1,4 @@
-﻿body {
-	margin:0;
-}
-
-div:not(#head) {
+﻿div:not(#head) {
 	margin:16px;
 }
 
